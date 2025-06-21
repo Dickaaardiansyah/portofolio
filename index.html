@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="scroll-indicator"></div>
+    
+    <div class="bg-animation">
+        <div class="floating-shapes"></div>
+        <div class="floating-shapes"></div>
+        <div class="floating-shapes"></div>
+    </div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Halo, Saya Dicka Ardiansyah</h1>
+            <p>Menciptakan pengalaman digital yang memukau dengan teknologi modern dan desain yang inovatif</p>
+            <a href="#projects" class="cta-button">Lihat Karya Saya</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">Tentang Saya</h2>
+        <div class="about-content">
+            <div class="about-image has-photo">
+                <img src="./foto2.jpeg" alt="Foto Profil" class="profile-photo" onerror="this.style.display='none'; this.parentElement.innerHTML='👨‍💻'; this.parentElement.style.fontSize='8rem';">
+            </div>
+            <div class="about-text">
+                <h3>Full Stack Developer</h3>
+                <p>I am a 6th-semester Software Engineering Technology student at Banyuwangi State Polytechnic with over one year of experience in software development. My technical expertise includes Laravel, Tailwind CSS, Flutter, MySQL, and IT support.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2 class="section-title">Keahlian</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-icon">🎨</div>
+                <h3>Frontend Development</h3>
+                <p>HTML, CSS, JavaScript, React, Vue.js dengan fokus pada UI/UX yang responsive dan interaktif</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">⚙️</div>
+                <h3>Backend Development</h3>
+                <p>Node.js, Python, PHP, database design dan API development untuk sistem yang scalable</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">📱</div>
+                <h3>Mobile Development</h3>
+                <p>React Native, Flutter untuk pengembangan aplikasi mobile cross-platform</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-icon">☁️</div>
+                <h3>Cloud & DevOps</h3>
+                <p>AWS, Docker, CI/CD untuk deployment dan maintenance aplikasi modern</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2 class="section-title">Proyek Terbaru</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="./porto1.jpg" alt="Fitcall Project" onerror="this.style.display='none'; this.parentElement.innerHTML='📸';">
+                </div>
+                <div class="project-content">
+                    <h3>Fitcall</h3>
+                    <p>Aplikasi Prediksi Kalori Terbakar Berdasarkan Data Latihan dan Fisiologis Pengguna Melalui sistem Analisis menggunakan Foto berbasis Model Machine Learning</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                        <span class="tech-tag">Stripe</span>
+                    </div>
+                    <a href="https://example.com/fitcall" class="view-project-btn">Lihat Proyek</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="#" alt="Business Dashboard Project" onerror="this.style.display='none'; this.parentElement.innerHTML='📊';">
+                </div>
+                <div class="project-content">
+                    <h3>Business Dashboard</h3>
+                    <p>Dashboard analytics untuk monitoring performa bisnis dengan visualisasi data real-time dan reporting otomatis.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">D3.js</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                    <a href="https://example.com/dashboard" class="view-project-btn">Lihat Proyek</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="#" alt="Gaming Community App Project" onerror="this.style.display='none'; this.parentElement.innerHTML='🎮';">
+                </div>
+                <div class="project-content">
+                    <h3>Gaming Community App</h3>
+                    <p>Aplikasi mobile untuk komunitas gamer dengan fitur chat, tournament, dan leaderboard sistem.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">React Native</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">Socket.io</span>
+                        <span class="tech-tag">Redux</span>
+                    </div>
+                    <a href="https://example.com/gaming" class="view-project-btn">Lihat Proyek</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Hubungi Saya</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div>
+                        <h3>Email</h3>
+                        <p>dickaardiansyah994@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div>
+                        <h3>Telepon</h3>
+                        <p>+62 8967-6678-530</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <div>
+                        <h3>Lokasi</h3>
+                        <p>Banyuwangi, Jawa Timur</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form" action="https://formspree.io/f/mkgbvqen" method="POST">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="#" class="social-link">💼</a>
+            <a href="#" class="social-link">📧</a>
+            <a href="#" class="social-link">🐙</a>
+            <a href="#" class="social-link">💻</a>
+        </div>
+        <p>© 2025 Modern Portfolio. Dibuat dengan ❤️ dan kode yang bersih.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
